@@ -39,6 +39,11 @@ $ node -v
 
 ```
 $ npm install hexo-cli -g
+
+# hexo 在5.0 之后把swig 删除了，需要手动安装，否则会出现加载theme 出错的问题
+# https://blog.csdn.net/qq_39898645/article/details/109181736
+
+$ npm install hexo-renderer-swig
 ```
 
 注意：Mac系统，则需要  
